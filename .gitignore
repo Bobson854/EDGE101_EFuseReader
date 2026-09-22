@@ -1,0 +1,39 @@
+# Build output (repo root only — do not use bare "build/" or tools/build is ignored)
+/build/
+/.build/
+/out/
+*.bin
+*.elf
+*.map
+
+# Arduino/temp
+*.tmp
+*.log
+
+# IDE
+.vscode/
+.idea/
+.cursor/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets / certificates / local config
+secrets.h
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+certs/
+credentials/
+.env
+.env.*
+local.config.*
